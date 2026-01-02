@@ -5,4 +5,5 @@
  LABEL   Install HTTPD NOW
 
  EXPOSE 80
- #CMD [ "httpd", "-D", "FOREGROUND"]
+ CMD [ "httpd", "-D", "FOREGROUND"]
+ # uncommented CMD
